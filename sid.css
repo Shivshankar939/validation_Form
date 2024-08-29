@@ -1,0 +1,33 @@
+
+
+.invalid-feedback {
+    display: none;
+    border-style: solid;
+}
+.is-invalid ~ .invalid-feedback {
+    display: block;
+
+}
+.button{
+    text-align: center;
+
+}
+.container-mt-5{
+    border: 5px solid black;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 50px;
+    background-color: rgb(237, 231, 223);
+}
+.rt{
+    text-align: center;
+}
+#validationForm{
+    color: rgb(71, 42, 165);
+    padding-left: 10px;
+
+}
+.form-control{
+    width: 500px;
+}
